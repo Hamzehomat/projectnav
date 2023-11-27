@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} 
+.container{
+    margin:auto;
+    width:calc(100% - 120px);
+}
+body{
+    font-family:'Poppins', sans-serif;
+    height:200px;
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    flex-wrap:wrap;
+    margin-top:10px;
+}
+header .logo{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+header{
+    background-color:rgb(197, 185, 170);
+    position:fixed;
+    width:100%;
+    height:50px;
+}
+.logo img{
+    width:20px;
+}
+a{
+    text-decoration:none;
+}
+.nav ul{
+    list-style-type:none;
+    display:flex;
+    text-align:center;
+    margin-right:10px;
+}
+.nav ul{
+    display:flex;
+    gap:10px;
+    text-align:center;
+}
+.nav ul li a{
+    color:#101928;
+}
+.active{
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+header .auth{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    align-content:center;
+}
+header .auth a{
+    padding:5.35px 20.2px;
+    border-radius:15px;
+}
+header .auth .login {
+    color:#545BE8;
+    border:2px solid #545BE8;
+}
+.auth .register{
+    background-color:#545BE8 ;
+    color:#fff;
+
+}
